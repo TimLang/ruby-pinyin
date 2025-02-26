@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib}/**/*"] + ["LICENSE", "README.markdown"]
 
-  s.add_runtime_dependency('rmmseg-cpp-new', git: 'https://github.com/SinamonAB/rmmseg-cpp-new')
+  s.add_runtime_dependency 'rmmseg-cpp-new', git: 'https://github.com/SinamonAB/rmmseg-cpp-new'
   s.add_development_dependency('minitest', ['~> 5.4'])
 end
